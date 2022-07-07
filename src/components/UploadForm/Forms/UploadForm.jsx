@@ -40,7 +40,7 @@ const ImageForm = (props) => {
 
   return (
     <React.Fragment>
-      <Grid container spacing={3} justify="center" alignItems="center">
+      <Grid container spacing={3} justifyContent="center" alignItems="center">
         <Grid item xs={12}>
           <label style={{ color: `${isError ? "red" : "var(--main-color)"}` }}>
             {image.label}

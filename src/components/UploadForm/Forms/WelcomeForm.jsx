@@ -17,7 +17,7 @@ const headers = [
 export default function (props) {
   return (
     <React.Fragment>
-      <Grid container spacing={3} justify="center" alignItems="center">
+      <Grid container spacing={3} justifyContent="center" alignItems="center">
         <Grid item xs={12}>
           {headers.map((header, index) => {
             return (
